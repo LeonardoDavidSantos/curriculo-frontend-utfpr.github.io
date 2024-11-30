@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Noto+Sans:ital@0;1&display=swap');
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #e4f1ff;    
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: #1e90ff;
+    padding: 20px;
+    border-radius: 8px;
+    font-family: "ABeeZee", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.foto {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+header p {
+    font-size: 1em;
+    color: #ffffff;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #ffffff;
+    background-color: #1e90ff;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #1e90ff;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+ul li {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+
+a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+a:hover, .active {
+    text-decoration: underline;
+    color: rgb(6, 60, 127);
+}
+
+#nome {
+    font-size: 1.8em;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+a[href="https://github.com/leonardodavidsantos"] {
+    text-decoration: underline;
+    font-style: oblique;
+    color   : black;
+}
